@@ -1,0 +1,44 @@
+PROJEKTI 2, 3 vk
+
+---PROJEKTIJAKSON PÄÄAIHEET---:
+
+1. BACKEND: Socket.io ja socket connectionit,
+mongoDB ja node.js
+2. TYPESCRIPT: Typescriptiin syventymistä
+3. TESTAAMINEN: React yksikkötestausta -> mockaamisen ymärtäminen ja tekeminen
+4. INTEGRAATIO JA FRONTEND: frontend integraatio ChatAPI:n ja 
+REAL backendin kanssa
+
+
+---UUDET TEKNOLOGIAT---:
+
+ - Socket.io
+ - Jest
+ - Node.js
+ - mongoDB
+
+
+---APLIKAATION RAKENNE---:
+ARKKITEHTUURI TYYLI: Mikropalvelu arkkitehtuuri
+
+1. REAL FRONTEND
+    - Next.js / React
+    - Jest
+    - React Testing Library
+2. FastAPI Backend
+    - FastAPI
+    - SQLAlchemy
+    - Pydantic models
+    - Postgre AWS RDS
+3. ChatAPI socket.io
+    - Node.js
+    - Socket.io
+Seuraavaksi työn alla:
+4. Suosittelu algoritmi
+
+---REAL FRONTEND PARANNUKSIA---:
+ - Parannettu navigaatio
+ - Request nappi
+ - Comments page
+ - Contacts ja chat paget
+ - Validaatio / virheviestien parannuksia

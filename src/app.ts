@@ -26,7 +26,7 @@ app.use(cors());
 app.use(express.json());
 app.use(limiter);
 
-// connectDB();
+connectDB();
 
 // Routes
 app.post("/chats", async (req, res, next) => {
